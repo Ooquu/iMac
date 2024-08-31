@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./fonts/museosanscyrl/museosanscyrl.css">
+
+    <link rel="stylesheet" href="./styles/templates.css">
+    <link rel="stylesheet" href="./styles/preview.css">
+    <link rel="stylesheet" href="./styles/social.css">
+    <link rel="stylesheet" href="./styles/faq-slider.css">
+    <link rel="stylesheet" href="./styles/faq.css">
+
+
+
+    <script src="./scripts/swiperFaq.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>iMac</title>
+</head>
+
+<body>
+
+    <main class="main">
+
+        <section class="preview">
+            <picture class="preview__hand-picture">
+                <source srcset="./images/preview/hand.avif" type="image/avif">
+                <source srcset="./images/preview/hand.webp" type="image/webp">
+                <img width="369" height="329" loading="eager" class="preview__hand-picture-image"
+                    src="./images/preview/hand.png" alt="Картинка с телефоном">
+            </picture>
+            <picture class="preview__tg-picture">
+                <source srcset="./images/preview/telegrams.avif" type="image/avif">
+                <source srcset="./images/preview/telegrams.webp" type="image/webp">
+                <img width="274" height="195" loading="eager" class="preview__tg-picture-image"
+                    src="./images/preview/telegrams.png" alt="Картинка телеграм">
+            </picture>
+
+
+            <div class="preview__content-container">
+                <h1 class="preview__title">Поддержка здесь</h1>
+                <h2 class="preview__subtitle">Мы любим общаться и рады всем отзывам, вопросам и предложениям.
+                    Выберите удобный способ</h2>
+                <ul class="preview__list">
+                    <li class="preview__list-item">
+                        <a class="preview__list-item-link" href="" aria-label="Онлайн-чат">
+                            <svg class="preview__list-item-link-svg" aria-hidden="true" width="14" height="13"
+                                viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="preview__list-item-link-svg-path" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M14 6.09459C14 9.46054 10.8658 12.1892 7 12.1892C6.3067 12.1901 5.61626 12.1005 4.94637 11.9228C4.43537 12.1805 3.262 12.675 1.288 12.9971C1.113 13.025 0.98 12.8439 1.04913 12.682C1.35888 11.9541 1.63887 10.9842 1.72287 10.0996C0.651 9.0287 0 7.62694 0 6.09459C0 2.72863 3.13425 0 7 0C10.8658 0 14 2.72863 14 6.09459ZM4.375 6.09459C4.375 6.3255 4.28281 6.54695 4.11872 6.71023C3.95462 6.87351 3.73206 6.96524 3.5 6.96524C3.26794 6.96524 3.04538 6.87351 2.88128 6.71023C2.71719 6.54695 2.625 6.3255 2.625 6.09459C2.625 5.86367 2.71719 5.64222 2.88128 5.47894C3.04538 5.31566 3.26794 5.22393 3.5 5.22393C3.73206 5.22393 3.95462 5.31566 4.11872 5.47894C4.28281 5.64222 4.375 5.86367 4.375 6.09459V6.09459ZM7.875 6.09459C7.875 6.3255 7.78281 6.54695 7.61872 6.71023C7.45462 6.87351 7.23206 6.96524 7 6.96524C6.76794 6.96524 6.54538 6.87351 6.38128 6.71023C6.21719 6.54695 6.125 6.3255 6.125 6.09459C6.125 5.86367 6.21719 5.64222 6.38128 5.47894C6.54538 5.31566 6.76794 5.22393 7 5.22393C7.23206 5.22393 7.45462 5.31566 7.61872 5.47894C7.78281 5.64222 7.875 5.86367 7.875 6.09459ZM10.5 6.96524C10.7321 6.96524 10.9546 6.87351 11.1187 6.71023C11.2828 6.54695 11.375 6.3255 11.375 6.09459C11.375 5.86367 11.2828 5.64222 11.1187 5.47894C10.9546 5.31566 10.7321 5.22393 10.5 5.22393C10.2679 5.22393 10.0454 5.31566 9.88128 5.47894C9.71719 5.64222 9.625 5.86367 9.625 6.09459C9.625 6.3255 9.71719 6.54695 9.88128 6.71023C10.0454 6.87351 10.2679 6.96524 10.5 6.96524V6.96524Z"
+                                    fill="#1A1A1A" />
+                            </svg>
+                            <span class="preview__list-item-link-text">Онлайн-чат</span>
+                        </a>
+                    </li>
+                    <li class="preview__list-item">
+                        <a class="preview__list-item-link" href="" aria-label="Позвонить">
+                            <svg class="preview__list-item-link-svg" aria-hidden="true" width="13" height="13"
+                                viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="preview__list-item-link-svg-path"
+                                    d="M12.394 2.05413L10.7138 0.375486C10.5953 0.25644 10.4544 0.161986 10.2993 0.0975481C10.1441 0.0331105 9.97779 -4.02615e-05 9.8098 3.66958e-08C9.46745 3.66958e-08 9.14562 0.134102 8.90424 0.375486L7.09625 2.1835C6.97721 2.30202 6.88276 2.4429 6.81832 2.59803C6.75388 2.75317 6.72073 2.91951 6.72077 3.0875C6.72077 3.42985 6.85487 3.7517 7.09625 3.99308L8.41832 5.31517C8.10885 5.99729 7.6786 6.61783 7.14832 7.14684C6.61936 7.67842 5.99889 8.11025 5.31667 8.4216L3.9946 7.09951C3.87608 6.98047 3.7352 6.88602 3.58007 6.82158C3.42493 6.75714 3.25859 6.72399 3.09061 6.72403C2.74826 6.72403 2.42642 6.85813 2.18504 7.09951L0.375481 8.90595C0.256291 9.02469 0.161757 9.16583 0.0973171 9.32124C0.0328775 9.47666 -0.0001955 9.64328 8.69341e-07 9.81153C8.69341e-07 10.1539 0.134101 10.4757 0.375481 10.7171L2.05252 12.3942C2.43746 12.7807 2.96913 13 3.515 13C3.63016 13 3.7406 12.9905 3.84946 12.9716C5.97612 12.6214 8.08544 11.4902 9.78772 9.78944C11.4884 8.09029 12.618 5.98252 12.973 3.84951C13.0803 3.19794 12.8641 2.52743 12.394 2.05413V2.05413Z"
+                                    fill="#1A1A1A" />
+                            </svg>
+                            <span class="preview__list-item-link-text">Позвонить</span>
+                        </a>
+                    </li>
+                    <li class="preview__list-item">
+                        <a class="preview__list-item-link" href="" aria-label="Почта">
+                            <svg class="preview__list-item-link-svg" aria-hidden="true" width="14" height="11"
+                                viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="preview__list-item-link-svg-path"
+                                    d="M14 2.85408V8.88461C14 9.44565 13.7695 9.98371 13.3593 10.3804C12.9491 10.7771 12.3927 11 11.8125 11H2.1875C1.60734 11 1.05094 10.7771 0.640704 10.3804C0.230468 9.98371 0 9.44565 0 8.88461V2.85408L6.77775 6.71085C6.84508 6.74925 6.92183 6.7695 7 6.7695C7.07817 6.7695 7.15492 6.74925 7.22225 6.71085L14 2.85408ZM11.8125 2.61907e-08C12.3508 -8.18366e-05 12.8701 0.191744 13.2713 0.53878C13.6725 0.885816 13.9272 1.3637 13.9869 1.881L7 5.85538L0.0131251 1.881C0.0727635 1.3637 0.327533 0.885816 0.728696 0.53878C1.12986 0.191744 1.64925 -8.18366e-05 2.1875 2.61907e-08H11.8125Z"
+                                    fill="#1A1A1A" />
+                            </svg>
+                            <span class="preview__list-item-link-text">Почта</span>
+                        </a>
+                    </li>
+                    <li class="preview__list-item">
+                        <a class="preview__list-item-link" href="" aria-label="Отзыв о сайте">
+                            <svg class="preview__list-item-link-svg" aria-hidden="true" width="16" height="16"
+                                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="preview__list-item-link-svg-path" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M11.0016 4.20072C10.679 4.21044 10.3715 4.06388 10.176 3.80714L8.12699 1.11735C7.59697 0.421578 6.50427 0.603695 6.22856 1.43376L5.16312 4.64142C5.06134 4.94784 4.81787 5.18626 4.50938 5.2816L1.23044 6.295C0.347734 6.56782 0.185106 7.74709 0.961026 8.24864L3.64919 9.98625C3.93912 10.1737 4.11188 10.4974 4.1062 10.8425L4.05401 14.0127C4.0393 14.9066 5.0491 15.4359 5.77589 14.9152L8.6575 12.8507C8.90942 12.6702 9.23077 12.6167 9.52756 12.7059L12.9218 13.7253C13.7781 13.9825 14.562 13.1546 14.2584 12.3136L13.182 9.33152C13.0648 9.0068 13.1233 8.64459 13.3369 8.37335L15.3172 5.85835C15.8887 5.13249 15.3529 4.06955 14.4294 4.09739L11.0016 4.20072Z"
+                                    fill="#1A1A1A" />
+                            </svg>
+
+                            <span class="preview__list-item-link-text">Отзыв о сайте</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="social">
+            <div class="social__text-container">
+                <h2 class="social__title">Социальные сети и сообщество</h2>
+                <h3 class="social__subtitle">Присоединяйтесь</h3>
+            </div>
+            <ul class="social__list">
+                <li class="social__list-item">
+                    <a class="social__list-item-link" href="">
+                        <svg class="social__list-item-link-svg" width="26" height="14" viewBox="0 0 26 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="social__list-item-link-svg-path"
+                                d="M22.5719 9.36327C24.5939 11.1281 25.0142 11.7582 25.0829 11.8657C25.9208 13.172 24.1537 13.331 24.1537 13.331H20.4297C20.4297 13.331 19.5231 13.3408 18.7485 12.8361C17.4857 12.023 16.1634 10.4465 15.2342 10.7202C14.4541 10.9495 14.4613 11.9856 14.4613 12.8716C14.4613 13.1889 14.1838 13.331 13.5574 13.331C12.9311 13.331 12.6707 13.331 12.3932 13.331C10.3532 13.331 8.13954 12.6557 5.93133 10.387C2.8075 7.17988 0.0678084 0.719469 0.0678084 0.719469C0.0678084 0.719469 -0.0939876 0.394227 0.0822707 0.19606C0.28203 -0.0260997 0.825267 0.00233678 0.825267 0.00233678L4.4363 0.00144814C4.4363 0.00144814 4.77616 0.0645416 5.02021 0.233383C5.22178 0.372011 5.33386 0.636826 5.33386 0.636826C5.33386 0.636826 5.94037 2.60605 6.7132 3.8617C8.22269 6.31257 8.92501 6.37477 9.43752 6.11085C10.1859 5.72873 9.94189 3.12324 9.94189 3.12324C9.94189 3.12324 9.97533 2.00444 9.58485 1.50592C9.28386 1.12025 8.70808 0.91497 8.4568 0.882979C8.25342 0.857208 8.59329 0.507084 9.02625 0.30714C9.60474 0.0538779 10.392 -0.0109928 11.7497 0.00144814C12.8063 0.0112232 13.1109 0.073428 13.5231 0.166735C14.7696 0.449323 14.4613 1.19489 14.4613 3.81283C14.4613 4.6517 14.3438 5.83093 14.9874 6.22193C15.2649 6.39077 16.2158 6.59693 17.9079 3.89547C18.7114 2.61405 19.3505 0.488423 19.3505 0.488423C19.3505 0.488423 19.4824 0.254711 19.6876 0.139187C19.8973 0.0209982 19.891 0.0236641 20.1784 0.0236641C20.4659 0.0236641 23.3484 0.00144814 23.9811 0.00144814C24.6129 0.00144814 25.2059 -0.00566098 25.308 0.358681C25.4544 0.88209 24.8416 2.67537 23.2887 4.62149C20.737 7.81526 20.4541 7.51668 22.5719 9.36327Z"
+                                fill="#36BA5F" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__list-item">
+                    <a class="social__list-item-link" href="">
+                        <svg class="social__list-item-link-svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="social__list-item-link-svg-path" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.203552 5.6447C0.203552 2.63815 2.64169 0.200012 5.64824 0.200012H14.3598C17.3663 0.200012 19.8044 2.63815 19.8044 5.6447V14.3562C19.8044 17.3628 17.3663 19.8009 14.3598 19.8009H5.64824C2.64169 19.8009 0.203552 17.3628 0.203552 14.3562V5.6447ZM17.6175 3.46669C17.6175 2.8656 17.1297 2.37775 16.5286 2.37775C15.9275 2.37775 15.4396 2.8656 15.4396 3.46669C15.4396 4.06778 15.9275 4.55563 16.5286 4.55563C17.1297 4.55563 17.6175 4.06778 17.6175 3.46669ZM10.0072 4.55581C13.0137 4.55581 15.4518 6.99394 15.4518 10.0005C15.4518 13.0071 13.0137 15.4452 10.0072 15.4452C7.0006 15.4452 4.56246 13.0071 4.56246 10.0005C4.56246 6.99394 7.0006 4.55581 10.0072 4.55581ZM6.73503 9.99931C6.73503 8.1951 8.19764 6.73249 10.0019 6.73249C11.8061 6.73249 13.2687 8.1951 13.2687 9.99931C13.2687 11.8035 11.8061 13.2661 10.0019 13.2661C8.19764 13.2661 6.73503 11.8035 6.73503 9.99931Z"
+                                fill="#36BA5F" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__list-item">
+                    <a class="social__list-item-link" href="">
+                        <svg class="social__list-item-link-svg" width="19" height="22" viewBox="0 0 19 22" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="social__list-item-link-svg-path"
+                                d="M18.8904 5.38646C17.6607 5.38646 16.5262 4.97911 15.6152 4.29191C14.5703 3.50414 13.8195 2.34858 13.5544 1.01669C13.4888 0.687615 13.4534 0.348016 13.4501 0H9.93749V9.598L9.93328 14.8553C9.93328 16.2608 9.018 17.4525 7.74924 17.8717C7.38102 17.9933 6.98335 18.0509 6.56927 18.0282C6.04072 17.9992 5.54542 17.8397 5.11492 17.5822C4.1988 17.0343 3.57768 16.0403 3.56084 14.9032C3.53433 13.1261 4.971 11.6773 6.74685 11.6773C7.09739 11.6773 7.43405 11.7345 7.74924 11.8384V9.21505V8.272C7.41679 8.22277 7.07845 8.1971 6.73633 8.1971C4.79257 8.1971 2.97464 9.00507 1.67516 10.4607C0.692972 11.5607 0.103828 12.9641 0.0129315 14.4357C-0.10616 16.3689 0.601234 18.2067 1.9731 19.5625C2.17467 19.7616 2.38634 19.9463 2.60769 20.1167C3.78388 21.0219 5.22181 21.5126 6.73633 21.5126C7.07845 21.5126 7.41679 21.4873 7.74924 21.4381C9.16403 21.2285 10.4694 20.5809 11.4996 19.5625C12.7654 18.3114 13.4648 16.6505 13.4724 14.8826L13.4543 7.03185C14.0581 7.4977 14.7184 7.88317 15.427 8.18237C16.5292 8.64737 17.6978 8.88303 18.9005 8.88261V6.33203V5.38562C18.9013 5.38646 18.8912 5.38646 18.8904 5.38646V5.38646Z"
+                                fill="#36BA5F" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__list-item">
+                    <a class="social__list-item-link" href="">
+                        <svg class="social__list-item-link-svg" width="24" height="19" viewBox="0 0 24 19" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="social__list-item-link-svg-path"
+                                d="M23.3009 2.24175C22.4438 2.62179 21.5219 2.87883 20.555 2.99363C21.5422 2.40218 22.2998 1.46633 22.6574 0.349381C21.7337 0.89734 20.7101 1.29485 19.6217 1.50912C18.7497 0.580402 17.5072 0 16.1314 0C13.4918 0 11.351 2.14085 11.351 4.78047C11.351 5.15516 11.3934 5.51987 11.4754 5.86997C7.50243 5.67068 3.97974 3.76762 1.62177 0.874523C1.21036 1.58042 0.974347 2.40218 0.974347 3.27813C0.974347 4.93626 1.81892 6.4001 3.10094 7.25716C2.31768 7.23256 1.58006 7.01758 0.935844 6.65857C0.935487 6.67889 0.935487 6.69921 0.935487 6.71918C0.935487 9.03544 2.584 10.9674 4.77048 11.4062C4.36977 11.516 3.94659 11.5742 3.51128 11.5742C3.20255 11.5742 2.90343 11.5446 2.61181 11.489C3.22001 13.3877 4.98511 14.7699 7.07747 14.8088C5.44108 16.0912 3.38009 16.8552 1.13977 16.8552C0.754735 16.8552 0.373268 16.8327 0 16.7881C2.11447 18.145 4.62788 18.9361 7.32739 18.9361C16.1204 18.9361 20.929 11.6519 20.929 5.33413C20.929 5.127 20.9244 4.92058 20.9151 4.71594C21.8499 4.04213 22.6602 3.20041 23.3009 2.24175Z"
+                                fill="#36BA5F" />
+                        </svg>
+
+                    </a>
+                </li>
+                <li class="social__list-item">
+                    <a class="social__list-item-link" href="">
+                        <svg class="social__list-item-link-svg" width="36" height="36" viewBox="0 0 36 36" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="social__list-item-link-svg-path" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M36.0009 18.1982V17.9993V17.8011C28.0305 17.5599 24.3857 17.3611 21.4787 14.5218C18.6402 11.6154 18.4405 7.97066 18.2 -0.00012207H18.001H17.8021C17.5616 7.97066 17.362 11.6154 14.5234 14.5218C11.6164 17.3611 7.97161 17.5599 0.00128174 17.8011V17.9993V18.1982C7.97161 18.4394 11.6164 18.6383 14.5234 21.4769C17.362 24.384 17.5616 28.0287 17.8021 35.9995H18.001H18.2C18.4405 28.0287 18.6402 24.384 21.4787 21.4769C24.3857 18.6383 28.0305 18.4394 36.0009 18.1982Z"
+                                fill="#36BA5F" />
+                        </svg>
+
+                    </a>
+                </li>
+                <li class="social__list-item">
+                    <a class="social__list-item-link" href="">
+                        <svg class="social__list-item-link-svg" width="11" height="24" viewBox="0 0 11 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="social__list-item-link-svg-path"
+                                d="M10.5569 11.9768H7.29425V23.9997H2.35102V11.9768H0V7.7514H2.35102V5.01712C2.35102 3.06181 3.27441 0 7.33825 0L10.9999 0.0154087V4.11683H8.34313C7.90735 4.11683 7.29458 4.33584 7.29458 5.26858V7.75533H10.9888L10.5569 11.9768Z"
+                                fill="#36BA5F" />
+                        </svg>
+
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="faq-slider">
+            <h2 class="faq-slider__title">Часто задаваемые вопросы</h2>
+
+            <div class="swiper faqSwiper">
+                <ul class="swiper-wrapper faq-slider__list">
+                    <!-- item start -->
+                    <li class="swiper-slide faq-slider__list-item">
+                        <a class="faq-slider__list-item-link" href="./articleDetail/index.html">
+                            <article class="faq-slider__list-item-link-article">
+                                <div class="faq-slider__list-item-link-article-container">
+                                    <h3 class="faq-slider__list-item-link-article-title">Где работает доставка?</h3>
+
+                                </div>
+                                <picture class="faq-slider__list-item-link-picture">
+                                    <source srcset="./images/delivery.avif" type="./images/faq-slider/busket-icon.avif">
+                                    <source srcset="./images/delivery.webp" type="./images/faq-slider/busket-icon.webp">
+                                    <img width="87" height="90" loading="lazy" class="faq-slider__list-item-link-image"
+                                        src="./images/faq-slider/busket-icon.png" alt="Где работает доставка?">
+                                </picture>
+                            </article>
+                        </a>
+                    </li>
+                    <!-- item end -->
+                    <li class="swiper-slide faq-slider__list-item">
+                        <a class="faq-slider__list-item-link" href="./articleDetail/index.html">
+                            <article class="faq-slider__list-item-link-article">
+                                <div class="faq-slider__list-item-link-article-container">
+                                    <h3 class="faq-slider__list-item-link-article-title">Где работает доставка?</h3>
+                                    <p class="faq-slider__list-item-link-article-text">Карта лояльности с вашим номером
+                                        покупателя. Это карта лояльности с вашим</p>
+                                </div>
+                            </article>
+                        </a>
+                    </li>
+                    <li class="swiper-slide faq-slider__list-item">
+                        <a class="faq-slider__list-item-link" href="./articleDetail/index.html">
+                            <article class="faq-slider__list-item-link-article">
+                                <div class="faq-slider__list-item-link-article-container">
+                                    <h3 class="faq-slider__list-item-link-article-title">Где работает доставка?</h3>
+                                    <p class="faq-slider__list-item-link-article-text">Карта лояльности с вашим номером
+                                    </p>
+                                </div>
+                                <picture class="faq-slider__list-item-link-picture">
+                                    <source srcset="./images/delivery.avif" type="./images/faq-slider/busket-icon.avif">
+                                    <source srcset="./images/delivery.webp" type="./images/faq-slider/busket-icon.webp">
+                                    <img width="87" height="90" loading="lazy" class="faq-slider__list-item-link-image"
+                                        src="./images/faq-slider/busket-icon.png" alt="Где работает доставка?">
+                                </picture>
+                            </article>
+                        </a>
+                    </li>
+                    <li class="swiper-slide faq-slider__list-item">
+                        <a class="faq-slider__list-item-link" href="./articleDetail/index.html">
+                            <article class="faq-slider__list-item-link-article">
+                                <div class="faq-slider__list-item-link-article-container">
+                                    <h3 class="faq-slider__list-item-link-article-title">В какое время возможен
+                                        самовывоз В какое время возможен самовывоз?</h3>
+                                    <p class="faq-slider__list-item-link-article-text">Карта лояльности с вашим </p>
+                                </div>
+                            </article>
+                        </a>
+                    </li>
+                    <li class="swiper-slide faq-slider__list-item">
+                        <a class="faq-slider__list-item-link" href="./articleDetail/index.html">
+                            <article class="faq-slider__list-item-link-article">
+                                <div class="faq-slider__list-item-link-article-container">
+                                    <h3 class="faq-slider__list-item-link-article-title">Где работает доставка?</h3>
+                                    <p class="faq-slider__list-item-link-article-text">Карта лояльности с вашим номером
+                                        покупателя. Это карта лояльности с вашим</p>
+                                </div>
+                                <picture class="faq-slider__list-item-link-picture">
+                                    <source srcset="./images/delivery.avif" type="./images/faq-slider/busket-icon.avif">
+                                    <source srcset="./images/delivery.webp" type="./images/faq-slider/busket-icon.webp">
+                                    <img width="87" height="90" loading="lazy" class="faq-slider__list-item-link-image"
+                                        src="./images/faq-slider/busket-icon.png" alt="Где работает доставка?">
+                                </picture>
+                            </article>
+                        </a>
+                    </li>
+                    <li class="swiper-slide faq-slider__list-item">
+                        <a class="faq-slider__list-item-link" href="./articleDetail/index.html">
+                            <article class="faq-slider__list-item-link-article">
+                                <div class="faq-slider__list-item-link-article-container">
+                                    <h3 class="faq-slider__list-item-link-article-title">Где работает доставка?</h3>
+                                    <p class="faq-slider__list-item-link-article-text">Карта лояльности с вашим номером
+                                        покупателя. Это карта лояльности с вашим</p>
+                                </div>
+                                <picture class="faq-slider__list-item-link-picture">
+                                    <source srcset="./images/delivery.avif" type="./images/faq-slider/busket-icon.avif">
+                                    <source srcset="./images/delivery.webp" type="./images/faq-slider/busket-icon.webp">
+                                    <img width="87" height="90" loading="lazy" class="faq-slider__list-item-link-image"
+                                        src="./images/faq-slider/busket-icon.png" alt="Где работает доставка?">
+                                </picture>
+                            </article>
+                        </a>
+                    </li>
+                    <li class="swiper-slide faq-slider__list-item">
+                        <a class="faq-slider__list-item-link" href="./articleDetail/index.html">
+                            <article class="faq-slider__list-item-link-article">
+                                <div class="faq-slider__list-item-link-article-container">
+                                    <h3 class="faq-slider__list-item-link-article-title">Где работает доставка?</h3>
+                                    <p class="faq-slider__list-item-link-article-text">Карта лояльности с вашим номером
+                                        покупателя. Это карта лояльности с вашим</p>
+                                </div>
+                                <picture class="faq-slider__list-item-link-picture">
+                                    <source srcset="./images/delivery.avif" type="./images/faq-slider/busket-icon.avif">
+                                    <source srcset="./images/delivery.webp" type="./images/faq-slider/busket-icon.webp">
+                                    <img width="87" height="90" loading="lazy" class="faq-slider__list-item-link-image"
+                                        src="./images/faq-slider/busket-icon.png" alt="Где работает доставка?">
+                                </picture>
+                            </article>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+
+                <button class="faq-slider__prev">
+                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.26918 10.8857C6.66089 10.4974 6.66367 9.86739 6.27539 9.47568L2.41251 5.57863L6.30956 1.71575C6.70128 1.32747 6.70405 0.697478 6.31577 0.305764C5.92749 -0.0859495 5.2975 -0.088724 4.90579 0.299555L0.295615 4.8693C-0.0960983 5.25758 -0.0988728 5.88757 0.289406 6.27928L4.85915 10.8895C5.23747 11.2711 5.87746 11.2739 6.26918 10.8857Z"
+                            fill="#1A1A1A" />
+                    </svg>
+
+                </button>
+                <button class="faq-slider__next">
+                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.2925 0.293762C-0.0975 0.683762 -0.0975 1.31376 0.2925 1.70376L4.1725 5.58376L0.2925 9.46376C-0.0975 9.85376 -0.0975 10.4838 0.2925 10.8738C0.6825 11.2638 1.3125 11.2638 1.7025 10.8738L6.2925 6.28376C6.6825 5.89376 6.6825 5.26376 6.2925 4.87376L1.7025 0.283762C1.3225 -0.0962379 0.6825 -0.0962377 0.2925 0.293762Z"
+                            fill="#1A1A1A" />
+                    </svg>
+
+                </button>
+            </div>
+
+
+        </section>
+
+        <section class="faq">
+            <h2 class="faq__title">
+                Справка
+            </h2>
+            <div class="faq__details-container">
+                <details class="faq__details">
+                    <summary class="faq__details-summary">
+                        <div class="faq__details-summary-container">
+                            <h3 class="faq__details-summary-title">Бережная сборка</h3>
+                        </div>
+
+                        <svg class="faq__details-summary-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="faq__details-summary-svg-path"
+                                d="M9.29006 6.70999C8.90006 7.09999 8.90006 7.72999 9.29006 8.11999L13.1701 12L9.29006 15.88C8.90006 16.27 8.90006 16.9 9.29006 17.29C9.68006 17.68 10.3101 17.68 10.7001 17.29L15.2901 12.7C15.6801 12.31 15.6801 11.68 15.2901 11.29L10.7001 6.69999C10.3201 6.31999 9.68006 6.31999 9.29006 6.70999Z"
+                                fill="#949494" />
+                        </svg>
+
+
+                    </summary>
+                    <div class="faq__details-content-container">
+                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
+                            более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
+                            публичных выступлений в домашних условиях. При создании генератора мы использовали
+                            небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от
+                            двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и
+                            живым для визуально-слухового восприятия.
+
+                            По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у
+                            некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст
+                            рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит
+                            советских времен.</p>
+                    </div>
+                </details>
+
+                <details class="faq__details">
+                    <summary class="faq__details-summary">
+                        <div class="faq__details-summary-container">
+                            <h3 class="faq__details-summary-title">Способы доставки и самовывоза</h3>
+                            <p class="faq__details-summary-short-info">Это карта лояльности с вашим номером покупат Это
+                                карта лояльности с вашим номером покупат</p>
+                        </div>
+                        <svg class="faq__details-summary-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="faq__details-summary-svg-path"
+                                d="M9.29006 6.70999C8.90006 7.09999 8.90006 7.72999 9.29006 8.11999L13.1701 12L9.29006 15.88C8.90006 16.27 8.90006 16.9 9.29006 17.29C9.68006 17.68 10.3101 17.68 10.7001 17.29L15.2901 12.7C15.6801 12.31 15.6801 11.68 15.2901 11.29L10.7001 6.69999C10.3201 6.31999 9.68006 6.31999 9.29006 6.70999Z"
+                                fill="#949494" />
+                        </svg>
+
+                    </summary>
+                    <div class="faq__details-content-container">
+                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
+                            более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
+                            публичных выступлений в домашних условиях. При создании генератора мы использовали
+                            небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от
+                            двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и
+                            живым для визуально-слухового восприятия.
+
+                            По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у
+                            некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст
+                            рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит
+                            советских времен.</p>
+                    </div>
+                </details>
+
+                <details class="faq__details">
+                    <summary class="faq__details-summary">
+                        <div class="faq__details-summary-container">
+                            <h3 class="faq__details-summary-title">Минимальная сумма заказа</h3>
+                        </div>
+                        <svg class="faq__details-summary-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="faq__details-summary-svg-path"
+                                d="M9.29006 6.70999C8.90006 7.09999 8.90006 7.72999 9.29006 8.11999L13.1701 12L9.29006 15.88C8.90006 16.27 8.90006 16.9 9.29006 17.29C9.68006 17.68 10.3101 17.68 10.7001 17.29L15.2901 12.7C15.6801 12.31 15.6801 11.68 15.2901 11.29L10.7001 6.69999C10.3201 6.31999 9.68006 6.31999 9.29006 6.70999Z"
+                                fill="#949494" />
+                        </svg>
+
+                    </summary>
+                    <div class="faq__details-content-container">
+                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
+                            более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
+                            публичных выступлений в домашних условиях. При создании генератора мы использовали
+                            небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от
+                            двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и
+                            живым для визуально-слухового восприятия.
+
+                            По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у
+                            некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст
+                            рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит
+                            советских времен.</p>
+                    </div>
+                </details>
+
+                <details class="faq__details">
+                    <summary class="faq__details-summary">
+                        <div class="faq__details-summary-container">
+                            <h3 class="faq__details-summary-title">Лёгкий возврат</h3>
+                            <p class="faq__details-summary-short-info">Это карта лояльности с вашим номером покупат Это
+                                карта лояльности с вашим номером покупат</p>
+                        </div>
+                        <svg class="faq__details-summary-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="faq__details-summary-svg-path"
+                                d="M9.29006 6.70999C8.90006 7.09999 8.90006 7.72999 9.29006 8.11999L13.1701 12L9.29006 15.88C8.90006 16.27 8.90006 16.9 9.29006 17.29C9.68006 17.68 10.3101 17.68 10.7001 17.29L15.2901 12.7C15.6801 12.31 15.6801 11.68 15.2901 11.29L10.7001 6.69999C10.3201 6.31999 9.68006 6.31999 9.29006 6.70999Z"
+                                fill="#949494" />
+                        </svg>
+
+                    </summary>
+                    <div class="faq__details-content-container">
+                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
+                            более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
+                            публичных выступлений в домашних условиях. При создании генератора мы использовали
+                            небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от
+                            двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и
+                            живым для визуально-слухового восприятия.
+
+                            По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у
+                            некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст
+                            рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит
+                            советских времен.</p>
+                    </div>
+                </details>
+
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
